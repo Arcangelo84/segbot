@@ -1,0 +1,313 @@
+body {
+  overflow: hidden;
+  background: #c8cfca;
+  font-family: Consolas, Courier, monospace;
+}
+#bot {
+  visibility: hidden;
+}
+
+#root_a {
+  font-size: 22px;
+  color: #787675;
+  text-shadow: 0 0 15px #787675;
+}
+
+#stats {
+	color: #539bed;
+	text-align:center;
+}
+
+
+
+
+
+.split2 {
+  height: 15vh; 
+
+}
+.split3 {
+  height: 35%;
+
+  /*overflow: auto;*/
+}
+
+
+
+
+
+
+.logo1 {
+  overflow: hidden;
+  background-color: #72aef2;
+  padding: 40px 30px 30px 30px;
+  border-radius: 2px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 95%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+  -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+}
+.logo1::before, .logo1::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 40%;
+  z-index: -1;
+}
+.logo1::before {
+  left: 40%;
+  bottom: -130%;
+  background-color: rgba(69, 105, 144, 0.15);
+  //-webkit-animation: wawes 6s infinite linear;
+  //-moz-animation: wawes 6s infinite linear;
+  //animation: wawes 6s infinite linear;
+}
+.logo1::after {
+  left: 35%;
+  bottom: -125%;
+  background-color: rgba(2, 128, 144, 0.2);
+  //-webkit-animation: wawes 7s infinite;
+  //-moz-animation: wawes 7s infinite;
+  //animation: wawes 7s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.login2 {
+  overflow: hidden;
+  background-color: #b6b9ba;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+  -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+}
+.login2::before, .login2::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 40%;
+  z-index: -1;
+}
+.login2::before {
+  left: 40%;
+  bottom: -130%;
+  background-color: rgba(69, 105, 144, 0.15);
+  //-webkit-animation: wawes 6s infinite linear;
+  //-moz-animation: wawes 6s infinite linear;
+  //animation: wawes 6s infinite linear;
+}
+.login2::after {
+  left: 35%;
+  bottom: -125%;
+  background-color: rgba(2, 128, 144, 0.2);
+  //-webkit-animation: wawes 7s infinite;
+  //-moz-animation: wawes 7s infinite;
+  //animation: wawes 7s infinite;
+}
+
+.login2 > #login_do {
+  font-family: "Asap", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 80px;
+  border: 0;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: #34b4eb;
+  -webkit-transition: background-color 300ms;
+  -moz-transition: background-color 300ms;
+  transition: background-color 300ms;
+}
+.login2 > button:hover {
+  background-color: #f24353;
+}
+
+@-webkit-keyframes wawes {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes wawes {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes wawes {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+
+
+
+.table100 {
+
+    table-layout: fixed;
+
+    border-radius: 10px;
+	background-color: #b6b8ba;
+    box-shadow: 0 0px 40px 0px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgb(0 0 0 / 15%);
+   
+}
+
+
+.column3 {
+  width: 15%;
+  overflow: auto;
+}
+
+td {
+white-space: nowrap;
+  /*border: 1px solid black;*/
+  overflow: auto;
+}
+
+.count {
+	width: 100%;
+	overflow: auto;
+}
+
+#api_key2 {
+  display: block;
+  border-radius: 4px;
+  background: #c8cfca;
+  border: 0.1rem outset black;
+  font-size: 22px;
+  width: 80%;
+  margin: 10px -1px;  
+}
+
+
+
+#settings {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.inputs {
+	 margin: 10px -1px; 
+    display: inline-block;
+
+}
+.inputs > label {
+    display: block;
+}
+
+.inputs :not(label) {
+	border-radius: 4px;
+	background: #c8cfca;
+	border: 0.1rem outset black;
+	font-size: 20px;
+	
+}
+
+.extras > select{
+  display: inline-block;
+  border-radius: 4px;
+  background: #c8cfca;
+  border: 0.1rem outset black;
+  font-size: 20px;
+}
+
+
+.extras > label {
+    display: block;
+}
+
+.additional > input {
+  display: inline-block;
+  border-radius: 4px;
+  background: #c8cfca;
+  border: 0.1rem outset black;
+  font-size: 20px;
+  margin: 10px -1px;
+}
+#limit {
+	width: 150px;
+	
+}
+
+.text-container > input {
+	border-radius: 4px;
+  background: #c8cfca;
+  border: 0.1rem outset black;
+  font-size: 22px;
+  width: 90%;
+}
+.showhide {
+	cursor: pointer;
+    position: relative;
+    left: -40px;
+    transition: left 0.3s;
+	display: inline;
+	
+}

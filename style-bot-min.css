@@ -1,0 +1,327 @@
+body {
+  background-color: #1a2c38;
+}
+#spacer {
+  font-size: 1px;
+  text-align: center;
+  border-bottom: solid #8f8f8f;
+}
+.boxDice {
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  height: 100vh;
+}
+.center-checkbox {
+  text-align: center;
+}
+.boxTitle {
+  text-align: center;
+  padding: 8px 8px 5px;
+  font-weight: 700;
+  border-bottom: solid#181a1e;
+}
+.boxScon {
+  text-align: center;
+  padding: 10px 8px 5px;
+  border-bottom: solid#181a1e;
+}
+.boxStatus {
+  padding: 5px 0;
+  background-color: #16151f;
+  width: 100%;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.divTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  color: #9aa8ce;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.boxButtons {
+  width: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #9aa8ce;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.boxDS {
+  width: 110px;
+  padding: 3px;
+  text-align: center;
+}
+#refurl {
+  font-size: 18px !important;
+  color: #ff0 !important;
+}
+#_playtime {
+  font-size: 15px !important;
+  font-weight: 700;
+  text-align: center;
+  color: #fff !important;
+}
+#_start {
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#_seed {
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#_bot {
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.InputBox {
+  width: 110px;
+  padding: 0.1rem;
+  border-radius: 5px;
+  background: #0f212e;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  transition: 1s;
+}
+#_status {
+  background: #16151f;
+  font-family: 'Proxima Nova', sans-serif;
+  line-height: 1em;
+  color: #01ff3f;
+  font-weight: 700;
+  font-size: 28px;
+  text-shadow: 0 0 0 #0ffffffffffffffa4240ffffffffffffffa4 1px 0
+      #0ffffffffffffff770fffffffffffffff70ffffffffffffff77 2px 2px 0
+      #0ffffffffffffff4a0ffffffffffffffca0ffffffffffffff4a 3px 2px
+      rgba(0, 0, 0, 0.6),
+    3px 3px 1px rgba(0, 0, 0, 0.5), 0px 0 2px rgba(0, 0, 0, 0.2);
+}
+.left {
+  float: left;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Proxima Nova', sans-serif;
+  scrollbar-width: none;
+}
+.common_wrap {
+  margin-top: 4px;
+  height: 42px;
+  line-height: 42px;
+  background: #273653;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type='checkbox' i] {
+  background-color: initial;
+  cursor: default;
+  appearance: checkbox;
+  box-sizing: border-box;
+  padding: initial;
+  border: initial;
+}
+input[type='radio' i] {
+  background-color: initial;
+  cursor: default;
+  appearance: radio;
+  box-sizing: border-box;
+  padding: initial;
+  border: initial;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  height: auto;
+}
+.footer-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 70%;
+  background: linear-gradient(to bottom, #1a2c38, #0f212e);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-success {
+  color: #0f212e;
+  font-weight: 600;
+  background-color: #1fff20;
+  cursor:pointer;
+  transition:1s;
+}
+.btn-secondary {
+  color: black;
+  font-weight: 600;
+  background-color: white;
+  cursor:pointer;
+  transition:1s;
+}
+#log {
+  font-size: 15px;
+  color: #fff;
+  background: #0f212e;
+  overflow: auto;
+  text-align: left;
+  padding: 3px;
+  padding-left: 20px;
+  border: 1px solid #2b485c;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  width: 100%;
+  margin-bottom: auto;
+}
+header {
+  background: linear-gradient(to bottom, #2b485c, #0f212e);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header img {
+  width: 150px;
+  height: auto;
+}
+.hamburguer {
+  display: none;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.select-space {
+  width: 200px;
+  padding-top: 10px;
+}
+#statistic {
+  height: 75px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #213743;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f212e;
+  border: 1px solid #2b485c;
+  height: 55vh;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (max-width: 900px) {
+  .chart {
+    display: none;
+  }
+  header {
+    height: 80px;
+  }
+  header img {
+    width: 100px;
+  }
+  .hamburguer {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburguer .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fefefe;
+    margin: 6px 0;
+  }
+  .options {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to top, #2b4557, #0f212e);
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .options.active {
+    height: 450px;
+  }
+  .options .boxDiv {
+    display: block;
+    padding: 0;
+    width: fit-content;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .options.active .boxDiv {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .footer {
+    padding-top: 30%;
+  }
+}
+#myChart {
+  height: 55vh;
+  width: 100%;
+}
+.boxDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
